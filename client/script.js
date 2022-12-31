@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:5100', {
+    const response = await fetch('https://chatmon.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
